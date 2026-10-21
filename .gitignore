@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+cache/
+*:Zone.Identifier
+data/grafo.graphml
+data/geocache.json

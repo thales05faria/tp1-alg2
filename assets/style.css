@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+header { background: #0f172a; color: #fff; padding: 14px 28px; display: flex; align-items: baseline; gap: 16px; }
+header h1 { margin: 0; font-size: 22px; }
+header span { color: #94a3b8; font-size: 14px; }
+.conteudo { display: flex; gap: 20px; padding: 20px 28px; align-items: flex-start; }
+.painel { width: 290px; flex-shrink: 0; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px; }
+.painel h3 { margin: 0 0 10px; font-size: 15px; }
+.painel label { display: block; margin: 12px 0 4px; font-size: 13px; color: #475569; }
+.painel input[type=text] { width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; color: #0f172a; background: #fff; }
+.painel button { width: 100%; margin-top: 14px; padding: 10px; background: #2563eb; color: #fff; border: 0; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; }
+.painel button:hover { background: #1d4ed8; }
+.painel hr { border: 0; border-top: 1px solid #e2e8f0; margin: 18px 0; }
+.painel small { color: #64748b; display: block; margin-top: 10px; }
+.msg { margin-top: 10px; font-size: 13px; color: #475569; min-height: 18px; }
+.principal { flex: 1; min-width: 0; }
+.metricas { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.cartao { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px 14px; }
+.cartao-titulo { font-size: 12px; color: #64748b; }
+.cartao-valor { font-size: 18px; font-weight: 600; margin-top: 4px; }
+#mapa { border-radius: 12px; border: 1px solid #e2e8f0; margin-bottom: 8px; }
+.principal h3 { font-size: 15px; margin: 18px 0 8px; }
+.ponto { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; }
+.vermelho { background: #dc2626; } .cinza { background: #9ca3af; } .azul { background: #2563eb; }
+@media (max-width: 900px) { .conteudo { flex-direction: column; } .painel { width: 100%; } }
